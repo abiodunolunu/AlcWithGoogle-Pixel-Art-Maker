@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background: #5A3F37;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+    font-family: 'Sunflower', sans-serif;;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+.btn {
+   color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: #2c7744;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+     outline: none;
+  
+}
+
+.btn:hover {
+  color: white;
+    background: #5A3F37;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#colorPicker {
+	outline: none;
+	border: none;
+    background: none;
+}
